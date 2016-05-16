@@ -1,5 +1,4 @@
-<h1 align="center">Swipeable Card</h1>
-
+<h1 align="center"><img src="http://s24.postimg.org/n3s9xflud/banner.jpg"/></h1>
 <h2 align="center">A simple implementation of swipe card like StreetView!!</h1>
 
 [![Codacy Badge](https://api.codacy.com/project/badge/grade/99f0b52958a5425e9d9377a6c253b6fd)](https://www.codacy.com/app/micky1995/SwipeableCard)
@@ -33,14 +32,14 @@
 
 ####[See video demo here](https://www.youtube.com/watch?v=81gAqOm1m5w)
 
-####Credit Card (Coming Soon Version)
+####Credit Card!!
 #####In collaboration with [cooltechworks](https://github.com/cooltechworks) and [CreditCardView](https://github.com/cooltechworks/CreditCardView)
 
 ![alt tag](http://i.giphy.com/3ornjQLD95Osp4qlm8.gif)
 
 ![alt tag](http://i.giphy.com/26tn8QOAqL4SVyRsA.gif)
 
-####Maps Card!!
+####Maps Card
 
 ![alt tag](http://i.giphy.com/26FPDYox55jE0UBVu.gif) 
 
@@ -67,7 +66,7 @@
 
 Swipeable Card is pushed to JCenter, so you just need to add the following dependency to your `build.gradle`.
 ```groovy
-compile 'it.michelelacorte.swipeablecard:library:2.2.0'
+compile 'it.michelelacorte.swipeablecard:library:2.3.0'
 ```
 
 In alternative you can use AAR repository with:
@@ -86,7 +85,7 @@ allprojects {
 And add this dependecies
 
 ```groovy
-compile 'it.michelelacorte.swipeablecard:library:2.2.0@aar'
+compile 'it.michelelacorte.swipeablecard:library:2.3.0@aar'
 ```
 
 ##DOCUMENTATION
@@ -103,6 +102,8 @@ compile 'it.michelelacorte.swipeablecard:library:2.2.0@aar'
 
 - [Maps Card Example](https://github.com/michelelacorte/SwipeableCard/blob/master/MAPS.md)
 
+- [Credit Card Example](https://github.com/michelelacorte/SwipeableCard/blob/master/CREDIT.md)
+
 - [Attribute Table](https://github.com/michelelacorte/SwipeableCard/blob/master/ATTRS.md)
 
 ##SYSTEM REQUIREMENT
@@ -115,14 +116,16 @@ Android API 14+
 
 ##CHANGELOG
 
-**Coming Soon Version**
-- Credit Card added!!
+**v2.3.0**
+- Credit Card added!! (See [Preview](http://i.giphy.com/3ornjQLD95Osp4qlm8.gif))
+- Credit Card in `RecyclerView`
 - Swipe up/down functionality (automatic and swipe gesture mode)
 - Added `isAutoAmination` attribute
-- Update support library to latest version `23.2.0`
-- Version 1.2 of Application Demo
+- Update support library to latest version `23.2.1`
+- Update documentation to `2.3.0`
+- Update version `1.2` of Application Demo
 - Fixed `RecyclerView` duplicate menù item in multiple marker mode maps
-- Added Codacy code review and fixed some issue
+- Added Codacy code review and fixed some issue (from B to A level see [![Codacy Badge](https://api.codacy.com/project/badge/grade/99f0b52958a5425e9d9377a6c253b6fd)](https://www.codacy.com/app/micky1995/SwipeableCard))
 
 **v2.2.0**
 - Maps Fragment added (with many method see [Preview](http://i.giphy.com/26FPDYox55jE0UBVu.gif))!
@@ -130,7 +133,7 @@ Android API 14+
 - Maps single marker mode and multiple marker mode support
 - Improved hierarchy type of Card
 - Improved `Builder()` constructor
-- Fixed issue in `OptioViewAdditional`
+- Fixed issue in `OptionViewAdditional`
 - Added documentation to GitHub repo: [Here](http://michelelacorte.github.io/SwipeableCard/docs/javadoc/index.html)
 - Version 1.1 of Application Demo
 
